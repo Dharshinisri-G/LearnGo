@@ -41,9 +41,9 @@ func main(){
 	//Boolean Constants (same as String Constants)
   const abool=true
 	type myBool bool
-	var bbool=false
+	var bbool myBool=false
 	//abool=bbool ->>> not allowed abool type - Bool , bbool type myBool
-	fmt.Println("bbool :",bbool)
+	fmt.Println("abool :",abool,"bbool :",bbool)
 	
 	//Numeric Constants (int, float, complex)
 	var i=5
