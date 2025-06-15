@@ -96,8 +96,8 @@ func main() {
 }
 ```
 
-##🚀 Ways to Run the Program
-#1️⃣ go run (Quick Testing)
+# 🚀 Ways to Run the Program
+## 1️⃣ go run (Quick Testing)
 ```bash
 go run main.go
 ```
@@ -105,7 +105,7 @@ Compiles and runs directly.
 
 No binary file is created.
 
-#2️⃣ go build (Build Local Binary)
+## 2️⃣ go build (Build Local Binary)
 ```bash
 go build
 ./learngo
@@ -114,7 +114,7 @@ Creates binary in current directory.
 
 Run the binary manually.
 
-#3️⃣ go install (Global Install)
+## 3️⃣ go install (Global Install)
 ```bash
 export GOBIN=~/go/bin/
 go install
@@ -134,10 +134,10 @@ Then you can simply run:
 learngo
 ```
 
-#4️⃣ Go Playground (Online)
+## 4️⃣ Go Playground (Online)
 Use Go Playground to run Go code online without local installation.
 
-##🔍 Internal Behavior
+## 🔍 Internal Behavior
 go run → Compiles to a temporary directory and runs.
 
 go build → Compiles and creates binary in current directory.
@@ -150,7 +150,7 @@ To see where go run builds temporary files:
 go run --work main.go
 ```
 
-#📖 Code Explanation
+## 📖 Code Explanation
 package main → Entry package for standalone Go programs.
 
 import "fmt" → Imports the fmt package for I/O operations.
@@ -158,3 +158,4 @@ import "fmt" → Imports the fmt package for I/O operations.
 func main() → Program execution starts here.
 
 fmt.Println("Hello World") → Prints to console.
+
